@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	height: 50px;
+	width: 100%;
+	background: red;
+}
+main {
+	height: 500px;
+	width: 100%;
+	background: orange;
+}
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+	height: 1400px;
+}
+.claer{
+	content: "";
+	clear: both;
+	display: block;
+}
+.slide1 {
+	float: left;
+	width: 230px;
+	background: lime;
+	height: 1400px;
+}
+.slide2 {
+	float: left;
+	width: 500px;
+	background: green;	
+	height: 1400px;
+}
+.slide3 {
+	float: left;
+	width: 230px;
+	background: lime;
+	height: 1400px;
+}
+footer {
+	height: 100px;
+	width: 100%;
+	background: blue;
+}
